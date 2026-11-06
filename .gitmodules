@@ -1,0 +1,6 @@
+[submodule "with_stm32"]
+	path = with_stm32
+	url = https://github.com/qwaszxopklnmso/Stm32Link-Mod.git
+[submodule "Stm32Link_Keil"]
+	path = Stm32Link_Keil
+	url = https://github.com/qwaszxopklnmso/Stm32Link-STM.git

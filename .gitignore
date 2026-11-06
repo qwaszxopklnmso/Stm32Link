@@ -1,0 +1,44 @@
+# ---- 根仓库：两个代码仓库作为 submodule，另有文档/工具 ----
+egcodes/
+tests/
+buzzer_breadboard.*
+
+# ---- 音频素材（版权原因不入库） ----
+*.m4s
+tools/*.wav
+*.mid
+
+# ---- 本地工具链（JDK 绿色包） ----
+tools/jdk-25*/
+
+# ---- Keil 生成物 ----
+Stm32Link_Keil/Objects/
+Stm32Link_Keil/Listings/
+Stm32Link_Keil/DebugConfig/
+Stm32Link_Keil/*.uvguix.*
+Stm32Link_Keil/keilbuild.log
+Stm32Link_Keil/RTE/
+
+# ---- tests 下 Keil 生成物 ----
+tests/*/Objects/
+tests/*/Listings/
+tests/*/DebugConfig/
+tests/*/RTE/
+tests/*/*.uvguix.*
+tests/*/build.log
+
+# ---- Mod 构建产物（with_stm32/ 内还有模板自带的 .gitignore） ----
+with_stm32/build/
+with_stm32/.gradle/
+with_stm32/run/
+with_stm32/build.log
+with_stm32/runserver.log
+
+# ---- 系统杂项 ----
+Thumbs.db
+.DS_Store
+
+
+FFA.md
+with_stm32-template-1.21.8*.zip
+tools/jdk25.zip
