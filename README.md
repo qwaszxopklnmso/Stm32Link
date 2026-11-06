@@ -4,7 +4,9 @@
 
 > **代码仓库（本仓库以 submodule 固定版本）**
 > - Minecraft Mod：<https://github.com/qwaszxopklnmso/Stm32Link-Mod> → `with_stm32/`
+>   - 中文 README：<https://github.com/qwaszxopklnmso/Stm32Link-Mod/blob/main/README.zh-CN.md>
 > - STM32 固件（Keil）：<https://github.com/qwaszxopklnmso/Stm32Link-STM> → `Stm32Link_Keil/`
+>   - 中文 README：<https://github.com/qwaszxopklnmso/Stm32Link-STM/blob/main/README.zh-CN.md>
 > - 本仓库：项目入口 / 文档 / 两个 submodule
 >
 > 克隆时请带子模块：
