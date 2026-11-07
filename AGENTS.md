@@ -7,7 +7,7 @@
 - `"E:\Stm32&MC\with_stm32"`是MCmod
 - `"E:\Stm32&MC\Stm32Link_Keil"`是Keil项目
 ## About Push
-- Git 代码提交必须带 tag，仅文档提交可不带；一个发布可含多个 commit，但最后推到 main 的代码 HEAD 必须有同版本 tag，不能“代码已推、tag 没推”。
+- Git 代码提交必须带 tag；仅文档更新（README/AGENTS/文档）不打 tag，但仍提交推送。一个发布可含多个 commit，但最后推到 main 的代码 HEAD 必须有同版本 tag，不能“代码已推、tag 没推”。
 - Git Tag Version == Minecraft mod version；Mod、STM、Hub 三个仓库用同一个版本号。
 
 ## Tag / 发布
