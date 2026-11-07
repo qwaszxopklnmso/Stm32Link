@@ -27,6 +27,9 @@ tests/*/RTE/
 tests/*/*.uvguix.*
 tests/*/build.log
 
+# ---- 本地构建临时目录（不要放进 C:） ----
+Temp/
+
 # ---- Mod 构建产物（with_stm32/ 内还有模板自带的 .gitignore） ----
 with_stm32/build/
 with_stm32/.gradle/
